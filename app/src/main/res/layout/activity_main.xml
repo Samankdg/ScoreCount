@@ -41,33 +41,36 @@
         android:layout_marginBottom="24dp"
         android:layout_marginTop="16dp"
         />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+3 Points"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_light"
         android:onClick="add3ForAteam"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        />
+        android:text="+3 Points" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+2 Points"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_light"
         android:onClick="add2ForAteam"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        />
+        android:text="+2 Points" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+1 Points"
-        android:onClick="add1ForAteam"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        />
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="add1ForAteam"
+        android:text="+1 Points" />
 </LinearLayout>
 
     <View
@@ -103,43 +106,47 @@
             android:layout_marginBottom="24dp"
             android:layout_marginTop="16dp"
             />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+3 Points"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/holo_blue_light"
             android:onClick="add3ForBteam"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            />
+            android:text="+3 Points" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+2 Points"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/holo_blue_light"
             android:onClick="add2ForBteam"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            />
+            android:text="+2 Points" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+1 Points"
-            android:onClick="add1ForBteam"
-            android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            />
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="add1ForBteam"
+            android:text="+1 Points" />
     </LinearLayout>
 
 </LinearLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RESET"
-        android:onClick="resetScore"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        />
+        android:background="@android:color/holo_red_light"
+        android:onClick="resetScore"
+        android:text="RESET" />
 </RelativeLayout>
